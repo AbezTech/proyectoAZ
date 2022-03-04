@@ -1,0 +1,240 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.cabecera{
+  width: 100%;
+  font-family: Helvetica, sans-serif;
+  background-image: url('https://images.unsplash.com/photo-1525648199074-cee30ba79a4a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contenedor{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.flex{
+  display: flex;
+  gap: 3rem;
+}
+.navegacion{
+  display: flex;
+  gap: 2.5rem;
+  text-decoration: none;
+  list-style: none;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.navegacion a{
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+.botonuno{
+  background-color: transparent;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  border: transparent;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.botondos{
+  background-color: #589442;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  color: white;
+  border: transparent;
+  margin-left: 1rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.contenedorinput{
+ text-align: center;
+ margin-top:5rem;
+ 
+}
+.titulo{
+  color: white;
+  font-size: 2.5rem;
+}
+input{
+  width: 50%;
+  height: 50px;
+  border: navajowhite;
+  border-radius: 20px;
+}
+.active{
+  border: 1px solid green;
+}
+.loguito{
+  width: 100%;
+}
+.logoimagen{
+  width: 15%;
+}
+/*CATEGORIAS*/
+
+.categorias{
+width: 100%;
+text-align: center;
+
+padding-bottom: 4rem;
+}
+.contenedorcategorias{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.titulocategorias{
+  font-size: 2.5rem;
+}
+.cajascategorias{
+  width: 20%;
+  margin-top: 2.5rem;
+  cursor: pointer;
+}
+.cajascategorias:hover{
+  
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(150,150,150,1);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(150,150,150,1);
+  box-shadow: 0px 3px 5px 0px rgba(150,150,150,1);
+ 
+}
+.cajascategorias img{
+  width: 30%;
+  
+}
+.populares{
+  width: 100%;
+  padding-bottom: 3rem;
+}
+.titulopopulares{
+  margin-left: 16rem;
+}
+.tiporestaurante, .descuento, .nombrerestaurante{
+  font-size: 1rem;
+  color: white;
+}
+.nombrerestaurante{
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+}
+.tiporestaurante{
+  background-color: black;
+  font-weight: 700;
+  display: inline-block;
+}
+.descuento{
+  background-color: orange;
+  display: inline;
+  margin-left: 2rem;
+  font-size: 1.2rem;
+}
+.contenedorpopulares{
+  width: 80%;
+  display: flex;
+  justify-content:center;
+  margin: 0 auto;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.cajapopulares:hover{
+  cursor: pointer;
+  transform: scale(1.03);
+}
+.pizza{
+  background-image: url(https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 1rem 2.3rem;
+  border-radius: 15px;
+}
+.sushi{
+  background-image: url(https://images.unsplash.com/photo-1580476262798-bddd9f4b7369?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 1rem 3rem;
+  border-radius: 15px;
+}
+.cajapopulares{
+  overflow: hidden;
+}
+.hamburguesa{
+  background-image: url(https://images.unsplash.com/photo-1614891669421-964261109bb4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 1rem 2.7rem;
+  border-radius: 15px;
+}
+.vegetariano{
+  background-image: url(https://images.unsplash.com/photo-1579871494447-9811cf80d66c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 1rem 2.7rem;
+  border-radius: 15px;
+}
+/**Pie**/
+
+.piedepagina{
+  width: 100%;
+  background-color: #121921;
+}
+.contenedorpiedepagina{
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+.piedepaginacontactos{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-decoration: none;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: white;
+}
+.piedepaginacontactos li{
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+}
+.contactostitulo{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.redessociales{
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  
+}
+.redessociales img{
+  width: 30px;
+  cursor: pointer;
+}
+.telefonowsp{
+  color: white;
+  text-decoration: none;
+}
+
+
